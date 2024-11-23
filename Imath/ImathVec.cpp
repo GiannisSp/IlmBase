@@ -149,7 +149,7 @@ Vec2<short>::normalize ()
 template <>
 IMATH_EXPORT
 const Vec2<short> &
-Vec2<short>::normalizeExc () throw (IEX_NAMESPACE::MathExc)
+Vec2<short>::normalizeExc ()  
 {
     if ((x == 0) && (y == 0))
         throw NullVecExc ("Cannot normalize null vector.");
@@ -180,7 +180,7 @@ Vec2<short>::normalized () const
 template <>
 IMATH_EXPORT
 Vec2<short>
-Vec2<short>::normalizedExc () const throw (IEX_NAMESPACE::MathExc)
+Vec2<short>::normalizedExc () const  
 {
     if ((x == 0) && (y == 0))
         throw NullVecExc ("Cannot normalize null vector.");
@@ -224,7 +224,7 @@ Vec2<int>::normalize ()
 template <>
 IMATH_EXPORT
 const Vec2<int> &
-Vec2<int>::normalizeExc () throw (IEX_NAMESPACE::MathExc)
+Vec2<int>::normalizeExc ()  
 {
     if ((x == 0) && (y == 0))
         throw NullVecExc ("Cannot normalize null vector.");
@@ -255,7 +255,7 @@ Vec2<int>::normalized () const
 template <>
 IMATH_EXPORT
 Vec2<int>
-Vec2<int>::normalizedExc () const throw (IEX_NAMESPACE::MathExc)
+Vec2<int>::normalizedExc () const  
 {
     if ((x == 0) && (y == 0))
         throw NullVecExc ("Cannot normalize null vector.");
@@ -300,7 +300,7 @@ Vec3<short>::normalize ()
 template <>
 IMATH_EXPORT
 const Vec3<short> &
-Vec3<short>::normalizeExc () throw (IEX_NAMESPACE::MathExc)
+Vec3<short>::normalizeExc ()  
 {
     if ((x == 0) && (y == 0) && (z == 0))
         throw NullVecExc ("Cannot normalize null vector.");
@@ -331,7 +331,7 @@ Vec3<short>::normalized () const
 template <>
 IMATH_EXPORT
 Vec3<short>
-Vec3<short>::normalizedExc () const throw (IEX_NAMESPACE::MathExc)
+Vec3<short>::normalizedExc () const  
 {
     if ((x == 0) && (y == 0) && (z == 0))
         throw NullVecExc ("Cannot normalize null vector.");
@@ -376,7 +376,7 @@ Vec3<int>::normalize ()
 template <>
 IMATH_EXPORT
 const Vec3<int> &
-Vec3<int>::normalizeExc () throw (IEX_NAMESPACE::MathExc)
+Vec3<int>::normalizeExc ()  
 {
     if ((x == 0) && (y == 0) && (z == 0))
         throw NullVecExc ("Cannot normalize null vector.");
@@ -407,7 +407,7 @@ Vec3<int>::normalized () const
 template <>
 IMATH_EXPORT
 Vec3<int>
-Vec3<int>::normalizedExc () const throw (IEX_NAMESPACE::MathExc)
+Vec3<int>::normalizedExc () const  
 {
     if ((x == 0) && (y == 0) && (z == 0))
         throw NullVecExc ("Cannot normalize null vector.");
@@ -452,7 +452,7 @@ Vec4<short>::normalize ()
 template <>
 IMATH_EXPORT
 const Vec4<short> &
-Vec4<short>::normalizeExc () throw (IEX_NAMESPACE::MathExc)
+Vec4<short>::normalizeExc ()  
 {
     if ((x == 0) && (y == 0) && (z == 0) && (w == 0))
         throw NullVecExc ("Cannot normalize null vector.");
@@ -483,7 +483,7 @@ Vec4<short>::normalized () const
 template <>
 IMATH_EXPORT
 Vec4<short>
-Vec4<short>::normalizedExc () const throw (IEX_NAMESPACE::MathExc)
+Vec4<short>::normalizedExc () const  
 {
     if ((x == 0) && (y == 0) && (z == 0) && (w == 0))
         throw NullVecExc ("Cannot normalize null vector.");
@@ -528,7 +528,7 @@ Vec4<int>::normalize ()
 template <>
 IMATH_EXPORT
 const Vec4<int> &
-Vec4<int>::normalizeExc () throw (IEX_NAMESPACE::MathExc)
+Vec4<int>::normalizeExc ()  
 {
     if ((x == 0) && (y == 0) && (z == 0) && (w == 0))
         throw NullVecExc ("Cannot normalize null vector.");
@@ -558,7 +558,7 @@ Vec4<int>::normalized () const
 template <>
 IMATH_EXPORT
 Vec4<int>
-Vec4<int>::normalizedExc () const throw (IEX_NAMESPACE::MathExc)
+Vec4<int>::normalizedExc () const  
 {
     if ((x == 0) && (y == 0) && (z == 0) && (w == 0))
         throw NullVecExc ("Cannot normalize null vector.");
